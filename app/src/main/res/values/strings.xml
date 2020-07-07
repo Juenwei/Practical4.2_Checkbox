@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practical 4.2_Checkbox</string>
+
+    <string name="chocoCheck">Chocolate Syrup</string>
+    <string name="sprinkleCheck">Sprinkles</string>
+    <string name="nutheck">Crushed Nut</string>
+    <string name="cherryCheck">Cherries</string>
+    <string name="oreoCheck">Oreo Cookie Chambles</string>
+
+</resources>

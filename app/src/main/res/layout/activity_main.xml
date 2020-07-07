@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+    <CheckBox
+        android:id="@+id/chocolate_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxListner"
+        android:text="Chocolate Syrup"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <CheckBox
+        android:id="@+id/sprinkles_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxListner"
+        android:text="Sprinkles"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <CheckBox
+        android:id="@+id/nut_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxListner"
+        android:text="Crushed Nuts"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <CheckBox
+        android:id="@+id/cherry_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxListner"
+        android:text="Cherries"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <CheckBox
+        android:id="@+id/oreo_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxListner"
+        android:text="Oreo Cookie Chumbles"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/toast_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxListner"
+        android:text="Show Toast"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="296dp" />
+</LinearLayout>
